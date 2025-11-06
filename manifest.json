@@ -1,0 +1,13 @@
+{
+  "id": "comet.charlievecc",
+  "version": "1.0.0",
+  "name": "Comet Addon",
+  "description": "Streams public torrents via Comet TB",
+  "resources": ["stream"],
+  "types": ["movie", "series"],
+  "catalogs": [],
+  "addon_catalogs": [],
+  "behaviorHints": {
+    "adult": false
+  }
+}
