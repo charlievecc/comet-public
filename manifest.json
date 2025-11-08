@@ -9,5 +9,7 @@
   "addon_catalogs": [],
   "behaviorHints": {
     "adult": false
-  }
+  },
+  "endpoint": "https://comet.elfhosted.com"
 }
+
