@@ -1,15 +1,24 @@
 {
-  "id": "comet.charlievecc",
+  "id": "comet-charlie-public",
   "version": "1.0.0",
-  "name": "Comet Addon",
-  "description": "Streams public torrents via Comet TB",
-  "resources": ["stream"],
+  "name": "Comet Public Charlie",
+  "description": "Public torrent streaming with no Debrid, built for Charlie’s H96 Max setup.",
   "types": ["movie", "series"],
-  "catalogs": [],
-  "addon_catalogs": [],
-  "behaviorHints": {
-    "adult": false
-  },
-  "endpoint": "https://comet.elfhosted.com"
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "comet-charlie-catalog",
+      "name": "Charlie’s Comet Catalog",
+      "extra": [{ "name": "search", "isRequired": false }]
+    },
+    {
+      "type": "series",
+      "id": "comet-charlie-series",
+      "name": "Charlie’s Comet Series",
+      "extra": [{ "name": "search", "isRequired": false }]
+    }
+  ],
+  "resources": ["stream"],
+  "idPrefixes": ["tt"],
+  "endpoint": "https://pt.elfhosted.com"
 }
-
